@@ -14,10 +14,10 @@ public class Runner {
     public static void main(String[] args) throws Exception
     {
         clearOutputFiles();
-        System.out.println("Your input File is :");
+        System.out.println("Your input File is :" + args[0]);
         List<String[]> inventory =readCSVFile("src/main/resources/input/Dataset.csv");
         List<String[]> inputCards =readCSVFile("src/main/resources/input/Cards.csv");
-        List<String[]> inputsItems =readCSVFile("Input.csv");
+        List<String[]> inputsItems =readCSVFile(args[0]);
         // Storing inventory and card details to Map
         prepareInventory(inventory);
         addCards(inputCards);
