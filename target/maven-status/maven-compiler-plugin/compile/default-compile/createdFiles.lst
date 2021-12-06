@@ -1,0 +1,9 @@
+com\inventory\EssentialLimit.class
+com\inventory\Category.class
+com\inventory\Chain.class
+com\inventory\Luxury.class
+com\inventory\Items$ItemsBuilder.class
+com\inventory\Misc.class
+com\inventory\ReadCsv.class
+com\inventory\Essentials.class
+com\inventory\Items.class
